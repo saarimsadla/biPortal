@@ -1,0 +1,148 @@
+.bg {
+    /* The image used */
+    background-image: url("../images/view-back.jpg");
+    /* Full height */
+    height: 130px;
+    width:100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+    //background-color: white;
+    padding: 0px;
+}
+.inputWithIcon input[type=text]{
+    width: 100%;
+   // margin: 15px 30px 15px 25px;
+    //margin-top: 3px;
+    margin-left: 25px;
+    margin-right: 30px;
+    border: none;
+    padding: 15px 15px;
+    transition: 0.3s;
+    background-color: white;
+    border: 1px solid gray;
+}
+.inputWithIcon{
+    position: relative;
+
+}
+.table-row{
+    cursor:pointer;
+}
+
+.clickable tr:hover{
+    cursor: pointer;
+    background-color: #ccc;
+}
+.inputWithIcon i {
+    position: absolute;
+    font-size: 20px;
+    color: red;
+    transition: 0.3s;
+}
+
+.inputWithIcon.inputIconBg i {
+    background-color: black;
+    color: black;
+    padding: 9px 4px;
+}
+.dropdown-content i.fa-reply {
+    color: cornflowerblue;
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    padding: 9px 8px;
+    color: red;
+    transition: 0.3s;
+}
+.dropdown-content i.fa-window-restore {
+    color: cornflowerblue;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    padding: 9px 8px;
+    transition: 0.3s;
+}
+.dropdown-content i.fa-clone {
+    color: cornflowerblue;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    padding: 9px 8px;
+    transition: 0.3s;
+}
+
+
+#table-view {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 95%;
+    padding: 20px 20px;
+    margin: 20px 20px 15px 25px;
+    //margin-top: 10px;
+    border: none;
+    background: white;
+    overflow: scroll;
+}
+
+#table-view td, #table-view th {
+    border-bottom: 1px solid #e9ecef;
+    padding: 8px;
+}
+#table-view tr:nth-child(even){background: white}
+
+#table-view tr:hover {background-color:#e9ecef}
+
+#table-view th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: white;
+    color: gray;
+    font-weight: lighter;
+    border-bottom: 1px solid #e9ecef;
+}
+.inputWithIcon.inputIconBg input[type="text"]:focus + i {
+    color: black;
+    background-color: dodgerBlue;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-top: 12px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    padding: 12px 13px;
+    color: cornflowerblue;
+}
+.dropdown-content a {
+    color: black;
+   padding: 12px 5px;
+    text-decoration: none;
+    display: block;
+}
+.table-scroll{
+    overflow: scroll;
+}
+.dropdown-content a:hover {
+    background-color: #e9ecef;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.show {display: block;}
+
+
+

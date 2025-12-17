@@ -1,0 +1,83 @@
+html,body{
+    background-image: url('../images/img3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    font-family:  sans-serif;
+}
+
+.container{
+    height: 100%;
+    align-content: center;
+}
+.img-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+.card{
+    height: 370px;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(241, 245, 245) !important;
+}
+.social_icon span:hover{
+    color: white;
+    cursor: pointer;
+}
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color:rgb(50,100,174);
+    color: white;
+    border-radius: 5px;
+
+
+}
+
+input:focus{
+
+
+
+}
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: white;
+    font-weight: bold;
+    background-color:rgb(50,100,174);
+    border-radius: 5px;
+    width: 358px;
+    height: 40px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}

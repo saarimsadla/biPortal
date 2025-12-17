@@ -1,0 +1,1 @@
+{"User_Found":"Saarim Sadla","Password_Matched":"Y","defWhiteLabel":"46","rolse":[{"whiteLabels":"0, 38, 44, 46, 47, 52"},{"rights":"1, 10, 11, 12, 13, 14, 15, 2, 3, 4, 5, 7, 8, 9"}]}

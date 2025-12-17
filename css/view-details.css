@@ -1,0 +1,328 @@
+
+.bg {
+    /* The image used */
+    background-image: url("../images/view-back.jpg");
+    /* Full height */
+    height: 250px;
+    width:100%;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+html, body, #container {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #e9ecef;
+    padding: 0px;
+}
+.inputWithIcon i.fa-arrow-left {
+    position: relative;
+    left: 80px;
+    margin-top: 130px;
+    color: white;
+    transition: 0.3s;
+    font-size: 25px;
+}
+.inputWithIcon {
+    position: relative;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+.inputWithIcon input[type=text] {
+    width: 30%;
+    margin-top: 130px;
+    margin-left: 30px;
+    transition: 0.3s;
+    font-weight: normal;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+::placeholder { /* Firefox, Chrome, Opera */
+    color: black;
+
+}
+.ver-date{
+     width: 95%;
+     padding: 5px 5px;
+     margin: 30px 20px 0px 25px;
+     box-sizing: border-box;
+     border: none;
+     color: black;
+     background-color:#d3d9df;
+     text-align: center;
+     font-weight: normal;
+    display: inline;
+ }
+.name{
+    width: 65%;
+    padding: 5px 5px;
+     margin-top: 1px;
+    margin-left: 160px;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    background-color:gray;
+    text-align: center;
+    font-weight: normal;
+    display: inline;
+}
+.name-ord{
+    width: 65%;
+    padding: 5px 5px;
+    margin-top: 8px;
+    margin-left: 160px;
+    box-sizing: border-box;
+    border: none;
+    color: black;
+    background-color: transparent;
+    text-align: center;
+    font-weight: normal;
+    display: inline;
+}
+.tab-menu{
+    width: 100%;
+   margin-top: 50px;
+    transition: 0.3s;
+    color: black;
+    outline: none;
+    border: none;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid gray;
+}
+.contract-name{
+    width: 30%;
+    margin-top: 130px;
+    margin-left: 50px;
+    transition: 0.3s;
+    font-weight: bolder;
+    color: white;
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+.floatLeft {
+    width: 50%;
+    float: left;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: transparent;
+
+}
+.floatRight {
+    width: 50%;
+    float: right;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background: transparent;
+
+   }
+.floatLeft td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+.floatLeft th {
+    border: 1px solid black;
+    padding: 8px;
+    width: 20%;
+    font-weight: bold;
+    text-align: left;
+}
+.floatRight td {
+    border: 1px solid black;
+    width: 15%;
+    text-align: center;
+}
+.floatRight th {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 15%;
+    font-weight: bold;
+    text-align: left;
+}
+.container1 {
+    overflow: hidden;
+}
+.floatCenter {
+    width: 98%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 10px 10px;
+    background: transparent;
+    margin-left: 0px;
+}
+.floatCenter td {
+    border: 1px solid black;
+    text-align: center;
+}
+.floatCenter th {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    width: 30%;
+    font-weight: bold;
+    text-align: left;
+}
+.floatCenter1 {
+    width: 98%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 5px 5px;
+    background: transparent;
+    margin-left: 8px;
+}
+.floatCenter1 td {
+    border: 1px solid black;
+
+}
+.floatCenter1 th {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+}
+.floatCenter2 {
+    width: 98%;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    padding: 5px 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    background: transparent;
+}
+.floatCenter2 td {
+    border: 1px solid black;
+    height: 50px;
+
+}
+.floatCenter2 th {
+    border: 1px solid black;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    text-align: left;
+    width: 220px;
+}
+.header-inp{
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    font-weight: lighter;
+    width: 14%;
+}
+.btn-tab{
+    background-color: white;
+    border-bottom: 1px solid black;
+    width: 100%;
+    padding: 15px 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+}
+
+.tablink {
+    background-color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 5px;
+    color: gray;
+
+}
+.tabcontent {
+   // padding: 100px 20px;
+    height: 100%;
+    display: none;
+    color: white;
+}
+.tablink:hover {
+    background-color: #777;
+    color: white;
+}
+.dropdown-content i.fa-print {
+    color: cornflowerblue;
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    padding: 9px 8px;
+    color: red;
+    transition: 0.3s;
+}
+.dropdown-content i.fa-arrow-right {
+    color: cornflowerblue;
+    position: absolute;
+    left: 10px;
+    top: 60px;
+    padding: 9px 8px;
+    transition: 0.3s;
+}
+
+.dropdown-content i.fa-clone {
+    color: cornflowerblue;
+    position: absolute;
+    left: 10px;
+    top: 110px;
+    padding: 9px 8px;
+    transition: 0.3s;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown i.fa-bars {
+    position: relative;
+    display: inline-block;
+    color: white;
+}
+.dropdown i.fa fa-envelope {
+    //position: absolute;
+    float: left;
+    color: black;
+    font-size:15px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    color: cornflowerblue;
+}
+.dropdown-content a {
+
+    text-decoration: none;
+    display: block;
+    color: #005cbf;
+
+}
+.dropdown-content a:hover {
+    background-color: #e9ecef;
+}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+.show {display: block;}
+
+
+
+
+
+
+
